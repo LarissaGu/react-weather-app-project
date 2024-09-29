@@ -8,7 +8,12 @@ export default function Weather() {
         <form>
           <div className="Search row">
             <div className="col-9">
-              <input type="search" placeholder="Enter a city" autoFocus="on" />
+              <input
+                type="search"
+                placeholder="Enter a city"
+                autoFocus="on"
+                className="search-input"
+              />
             </div>
             <div className="col-3">
               <input type="submit" value="Search" className="btn btn-primary" />
@@ -28,7 +33,8 @@ export default function Weather() {
               src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/clear-sky-day.png"
               alt="Clear day"
             ></img>
-            <span className="temperature">11 °C</span>
+            <span className="temperature">11 </span>
+            <span className="unit">°C</span>
           </div>
         </div>
       </div>
