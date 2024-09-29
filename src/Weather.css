@@ -2,21 +2,38 @@
   background: #fff;
   border-radius: 16px;
   box-shadow: 0 30px 50px #41326414;
-  padding: 40px;
+  padding: 60px;
+}
+
+.Weather h1 {
+  font-weight: bold;
 }
 
 .Weather ul {
   list-style-type: none;
   padding-left: 0;
+  color: var(--bs-secondary-color);
+}
+
+.Weather img {
+  width: 72px;
+  height: 72px;
+  margin: 10px;
+}
+
+.Weather .temperature-container {
+  align-items: center;
 }
 
 .Weather .temperature {
   font-size: 80px;
+  font-weight: bold;
 }
 
 .Weather .unit {
   position: relative;
-  top: -34px;
+  top: -20px;
+  font-size: 28px;
 }
 
 .Search {
