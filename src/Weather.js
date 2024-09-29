@@ -25,7 +25,9 @@ export default function Weather() {
             <h1>Berlin</h1>
             <ul>
               <li>Saturday, 28/09/2024, 10:15</li>
-              <li>Humidity: 56 %, Wind: 15 km/h</li>
+              <li>
+                Humidity: <strong>56 %</strong>, Wind: <strong>15 km/h</strong>
+              </li>
             </ul>
           </div>
           <div className="col-6">

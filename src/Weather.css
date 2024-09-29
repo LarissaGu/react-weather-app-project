@@ -15,6 +15,10 @@
   color: var(--bs-secondary-color);
 }
 
+.Weather li strong {
+  color: #f65282;
+}
+
 .Weather img {
   width: 72px;
   height: 72px;
