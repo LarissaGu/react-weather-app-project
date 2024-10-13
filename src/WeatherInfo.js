@@ -20,8 +20,11 @@ export default function WeatherInfo(props) {
         </div>
         <div className="col-6">
           <div className="temperature-container d-flex justify-content-end">
-            <img src={props.data.icon} alt={props.data.description}></img>
-
+            <img
+              src={props.data.icon}
+              alt={props.data.description}
+              className="WeatherInfo-main-icon"
+            ></img>
             <WeatherTemperature celsius={props.data.temperature} />
           </div>
         </div>

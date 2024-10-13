@@ -1,0 +1,26 @@
+.WeatherForecast {
+  text-align: center;
+  margin: 40px 0;
+  line-height: 20px;
+}
+
+.WeatherForecast .WeatherForecast-day {
+  color: #27214266;
+}
+
+.WeatherForecast .WeatherForecast-temperature {
+  color: #f65282;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.WeatherForecast .WeatherForecast-temperature-min {
+  opacity: 0.6;
+  margin-left: 10px;
+}
+
+.WeatherForecast img {
+  width: 64px;
+  height: 64px;
+  margin-bottom: 10px;
+}

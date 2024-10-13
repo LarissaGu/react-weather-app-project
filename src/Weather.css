@@ -19,9 +19,9 @@
   color: #f65282;
 }
 
-.Weather img {
-  width: 72px;
-  height: 72px;
+.Weather .WeatherInfo-main-icon {
+  width: 96px;
+  height: 96px;
   margin: 10px;
 }
 
